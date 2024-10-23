@@ -21,13 +21,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 70vh;
 }
 
 
 
 .container_conteudo {
-    padding: 0 20px;
+    padding: 0 5px;
     gap: 30px;
     height: 60vh;
     max-width: 900px;
