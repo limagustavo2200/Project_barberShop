@@ -21,13 +21,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 100px;
+    height: 100vh;
 }
 
-@media (width <= 1024px) {
-    .section{
-        margin-top: 100px;
-    }
-}
+
 
 .container_conteudo {
     padding: 20px;
@@ -58,6 +56,7 @@
 .mainDark {
     background-color: #252323;
     color: white;
+    
 }
 
 .container_header {
