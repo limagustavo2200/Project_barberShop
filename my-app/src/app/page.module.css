@@ -58,87 +58,13 @@
     
 }
 
-.container_header {
+.main {
     background-color: #fff;
-    width: 100%;
-    max-height: 10vh;
-    padding: 0px 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+    color: #252323;
 }
 
-.container_headerDark {
-    background-color: #252323;
-    width: 100%;
-    max-height: 10vh;
-    padding: 0px 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    
-}
 
-.container_logo {
-    max-width: 1024px;
-    width: 100px;
-    height: 100px;
-    display: flex;
-    .logo {
-        width: 100%;
-        height: 100%;
-    };
-}
 
-.container_logoDark {
-    max-width: 1024px;
-    width: 100px;
-    height: 100px;
-    display: flex;
-    .logo {
-        width: 100%;
-        height: 100%;
-        filter: invert(1) brightness(5);
-    }
-}
-
-.container_botao {
-    width: 100px;
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    .botao {
-        background-color: transparent;
-        border: solid #B2987D 2px;
-        border-radius: 15px;
-        padding: 6px 12px;
-        font-size: 20px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-}
-
-.botao:hover {
-    font-size: 1.5rem;
-}
-
-.botaoDark:hover {
-    font-size: 1.5rem;
-}
-
-.botaoDark {
-    background-color: transparent;
-    color: #B2987D;
-    border: solid #B2987D 2px;
-    border-radius: 15px;
-    padding: 6px 12px;
-    font-size: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
 @media (width <= 768px) {
     .banner {
